@@ -14,8 +14,10 @@ body {
   padding: 1rem 2rem;
 }
 
-.logo img {
-  height: 50px;
+.logo img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+  transition: 0.3s ease;
 }
 
 .nav-links {
@@ -51,6 +53,14 @@ body {
   font-size: 1.1rem;
   line-height: 1.6;
   padding-right: 2rem;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
 
