@@ -63,5 +63,31 @@ body {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
+.cv {
+  color: #ccc;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  text-align: center; /* 👈 centers all text */
+}
 
+.cv h1, .cv h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-top: 2rem;
+  font-family: 'DM Serif Text', serif;
+  text-align: center; /* 👈 also center headings */
+}
+
+.cv ul {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+.cv section {
+  margin-bottom: 2.5rem;
+}
 
