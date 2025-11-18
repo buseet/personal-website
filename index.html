@@ -1,17 +1,69 @@
----
-layout: default
----
-{% include header.html %}
-
-<body>
-
-  <main class="intro">
-    <div class="text">
-      <p>Merhaba! I'm Buse</p>
+<main class="hero">
+  <section class="hero-text">
+    <p class="eyebrow">Hi! I'm Buse</p>
+    <h1>Geophysicist blending inversion theory, physics, and machine learning.</h1>
+    <p>
+      I work on physics-informed machine learning pipelines that infer latent physical fields from sparse
+      observations and images. Right now I’m a postdoctoral researcher at CSIRO, developing hybrid
+      ML–physics workflows for complex systems.
+    </p>
+    <div class="cta-group">
+      <a class="btn primary" href="{{ '/cv.html' | relative_url }}">See my CV</a>
+      <a class="btn secondary" href="https://linkedin.com/in/buse-turunctur-0b560b137" target="_blank" rel="noreferrer">
+        Say hi on LinkedIn
+      </a>
     </div>
-    <!-- <div class="profile-pic">
-      <img src="assets/img/buse-in-water.jpg" alt="Buse in water">
-    </div> -->
-  </main>
-</body>
-</html>
+    <dl class="quick-stats">
+      <div>
+        <dt>Current role</dt>
+        <dd>Postdoctoral Research Fellow, CSIRO Data61</dd>
+      </div>
+      <div>
+        <dt>Research pillars</dt>
+        <dd>Inverse problems, physics-informed ML, latent field estimation</dd>
+      </div>
+      <div>
+        <dt>Previously</dt>
+        <dd>Ph.D. in Seismology & Mathematical Geophysics, ANU</dd>
+      </div>
+    </dl>
+  </section>
+
+  <!-- <section class="hero-card" aria-label="Snapshot">
+    <div class="hero-card__inner">
+      <p class="hero-card__title">Field notes</p>
+      <p class="hero-card__fact">Physics-informed ML + geophysical imaging</p>
+      <ul>
+        <li>Stacks: Python, PyTorch, xarray, Dask, HPC</li>
+        <li>Favorite tools: notebooks, whiteboards, espresso</li>
+        <li>Currently tinkering with: latent-variable models for PDE-constrained systems</li>
+      </ul>
+      <img src="{{ 'assets/img/smile.png' | relative_url }}" alt="Smiling face illustration">
+    </div>
+  </section> -->
+</main>
+
+<section class="focus">
+  <div class="section-heading">
+    <p class="eyebrow">What I care about</p>
+    <h2>Interpretable models for complex Earth systems.</h2>
+    <p>
+      My work sits at the intersection of inversion theory, geophysical imaging, and machine learning. I like turning
+      noisy, incomplete data into structured constraints that help us understand and predict how our planet behaves.
+    </p>
+  </div>
+  <div class="focus-grid">
+    <article>
+      <h3>Physics-Informed ML</h3>
+      <p>Neural networks guided by physical laws, priors, and PDE constraints instead of pure curve fitting.</p>
+    </article>
+    <article>
+      <h3>Hybrid Inversion Pipelines</h3>
+      <p>Estimating latent physical fields from sparse measurements and images using differentiable forward models.</p>
+    </article>
+    <article>
+      <h3>Scientific Software</h3>
+      <p>Reusable, well-documented research code that other scientists can build on, not just one-off scripts.</p>
+    </article>
+  </div>
+</section>
